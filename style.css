@@ -49,6 +49,53 @@ h1{
   background: #9b2222;
 }
 
+.intro {
+  background-color: oldlace;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid brown;
+
+
+}
+.gap {
+  border-top: 3px double greenyellow;
+  bottom: 0;
+}
+
+.image-carosoule {
+  width: 100%;
+  height: 50vh;
+  background-color: lightgoldenrodyellow;
+
+}
+
+.colour {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col {
+  width: 25vw;
+  height: 70px;
+}
+
+.red {
+  background-color: firebrick;
+}
+
+.green {
+  background-color: greenyellow;
+}
+
+.blue {
+  background-color: dodgerblue;
+}
+
+.alpha {
+  background-color: lavender;
+}
 /* [ON THE SMALL SCREEN] */
 @media only screen and (max-width: 600px) {
 
