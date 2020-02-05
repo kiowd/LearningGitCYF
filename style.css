@@ -16,7 +16,14 @@
 
 /* NAVIGATION BAR */
 #page-nav-wrap {
-  background: #000;
+  background: #fff;
+  
+}
+
+h1{
+  position: absolute;
+  margin: 25px 50px 10px 105px;
+  
 }
 
 #page-nav {
@@ -67,7 +74,8 @@
 
 #page-nav a{
   
-  border-top: 4px double whitesmoke;
+  border-top: 4px double tomato
+  ;
   width: 100%;
   
   
