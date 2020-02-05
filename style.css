@@ -1,0 +1,88 @@
+/* [ON THE BIG SCREEN] */
+/* HAMBURGER ICON */
+#page-nav-wrap label {
+  color: #fff;
+  background: #ce3535;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#page-nav-wrap label,
+#hamburger {
+  /* Hide the hamburger icon */
+  display: none;
+}
+
+/* NAVIGATION BAR */
+#page-nav-wrap {
+  background: #000;
+}
+
+#page-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+#page-nav a {
+  color: #fff;
+  padding: 20px;
+  font-size: 22px;
+  text-decoration: none;
+  text-align: center;
+  /* Flex grow and basis will auto adjust the width */
+  /* Remove these if you do not want auto width */
+  flex-grow: 1;
+  flex-basis: 0;
+  /* A little bit of CSS animation magic */
+  transition: all ease 0.3s;
+}
+
+#page-nav a:hover {
+  background: #9b2222;
+}
+
+/* [ON THE SMALL SCREEN] */
+@media only screen and (max-width: 600px) {
+
+  /* Show hamburger icon */
+  #page-nav-wrap label {
+    display: inline-block;
+  }
+
+  /* Collapse menu */
+  #page-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    border-top: 2px double wheat;
+    overflow: hidden;
+    
+  }
+
+  /* Show/hide menu on checkbox click */
+  #page-nav {
+    display: none;
+  }
+
+#page-nav a{
+  
+  border-top: 2px double whitesmoke;
+  width: 100%;
+  
+  
+  
+}
+  #page-nav-wrap input:checked~#page-nav {
+    display: flex;
+  }
+}
+
+/* [DOES NOT MATTER] */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+}
