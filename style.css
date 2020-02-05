@@ -56,7 +56,6 @@
     align-items: flex-start;
     align-content: flex-start;
     justify-content: flex-start;
-    border-top: 2px double wheat;
     overflow: hidden;
     
   }
@@ -68,7 +67,7 @@
 
 #page-nav a{
   
-  border-top: 2px double whitesmoke;
+  border-top: 4px double whitesmoke;
   width: 100%;
   
   
